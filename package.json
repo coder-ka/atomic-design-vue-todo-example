@@ -1,0 +1,55 @@
+{
+  "name": "atomic-design-vue-todo-example",
+  "version": "1.0.0",
+  "description": "- [Vue](https://jp.vuejs.org/)\r - [Parcel](https://parceljs.org/)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development npx webpack-dev-server --progress --config webpack.config.dev.js",
+    "watch": "cross-env NODE_ENV=development npx webpack --progress --config webpack.config.watch.js",
+    "build": "cross-env NODE_ENV=production npx webpack --progress --config webpack.config.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-ka/atomic-design-vue-todo-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL 2",
+  "bugs": {
+    "url": "https://github.com/coder-ka/atomic-design-vue-todo-example/issues"
+  },
+  "homepage": "https://github.com/coder-ka/atomic-design-vue-todo-example#readme",
+  "dependencies": {
+    "@material/textfield": "^2.1.1",
+    "moment": "^2.24.0",
+    "tailwindcss": "^0.7.4",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^2.0.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.10",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
